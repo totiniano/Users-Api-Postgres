@@ -4,7 +4,9 @@ import { useState } from "react";
 const useUserCrud = () => {
     const [users, setUsers] = useState();
 
-    const url = "http://localhost:8080/api/v1/users";
+    // const url = "http://localhost:8080/api/v1/users";
+
+    const url = "https://crud-entregable-ii-users.onrender.com/api/v1/users";
 
     //GET
     const getAllUsers = () => {
